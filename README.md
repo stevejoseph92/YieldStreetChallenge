@@ -8,12 +8,12 @@ How to setup
 
 *User should already have git, maven, and cypress installed.
 
-Clone repository.
+1. Clone repository.
 
-UI automation tests can be run with the Cypress Test Runner (npx cypress open).
-They can also be run from CLI from the 'SauceDemo' directory using the command:
-  npx cypress run
+2. UI automation tests can be run with the Cypress Test Runner (npx cypress open).
+   They can also be run from CLI from the 'SauceDemo' directory using the command:
+    npx cypress run
   
-API automation tests can be run from CLI from the 'OpenWeatherAPI' directory using the command:
-  mvn test
+3. API automation tests can be run from CLI from the 'OpenWeatherAPI' directory using the command:
+    mvn test
 
